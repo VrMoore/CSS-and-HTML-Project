@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleB.css">
+    <title>Halaman 2</title>
+</head>
+<body>
+    <header>
+        <h1>Uji coba root dan var</h1>
+        <nav>
+            <ul>
+                <li><a href="pageA.html">Halaman 1</a></li>
+                <li><a href="pageB.html">Halaman 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="art1">
+            <h2>Penggunaan root</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perspiciatis veniam mollitia odio sit eaque obcaecati sapiente voluptatem, corporis amet adipisci optio non culpa repellendus dolor corrupti velit magnam provident! Facere quidem consectetur, nesciunt provident tenetur labore tempora illum ex in nostrum nisi vitae amet atque est praesentium harum, asperiores quo recusandae assumenda voluptas fuga! Eveniet excepturi aspernatur blanditiis sapiente a voluptatibus, quidem veniam iusto et animi recusandae autem explicabo? A debitis, tempore magnam eveniet quo hic laborum quibusdam enim!</p>
+                <img src="img2.webp" alt="Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse natus, quas aliquam saepe aliquid assumenda animi dignissimos non, dolore iure obcaecati. Quidem odio nulla fugit ipsam. Officia itaque iusto numquam.</p>
+                <p class="quote">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas iure consectetur sit inventore possimus. Saepe?</p>
+        </article>
+        <article id="art19">
+            <h2>Max dan Min</h2>
+                <h3>Max-width dan min-width</h3>
+                    <div class="moon">
+                        <p class="moon1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste doloremque quaerat totam eum. Atque inventore quisquam doloribus, veniam vitae dignissimos excepturi dolore tenetur fugit facere ipsam? Error repellendus autem quod?</p>
+                        <p class="moon2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tenetur dolorum sed natus asperiores commodi ullam adipisci, eius quam cupiditate. Repellat error ipsa vitae quas. Illo amet ea sed hic.</p>
+                    </div>
+        </article>
+        <article id="art2">
+            <h2>Attr selector</h2>
+                <h4>Attr[value]</h4>
+                    <p>Atribut diikuti dengan valuenya.Misal img[title] atau [value] saja</p><br>
+                <h4>Attr[type^="value"]</h4>
+                    <p>Atribut akan mengikuti <b>awalan</b> value.Misal a[href^=https://] akan memilih link yang diawali https://</p><br>
+                <h4>Attr[type$="value"]</h4>
+                    <p>Atribut akan mengikuti <b>akhiran</b> element.Misal a[type$=.pdf] akam mencari file yang berakhiran .pdf</p><br>
+                <h4>Attr[type~="value"]</h4>
+                    <p>Atribut akan mengikuti value yang dipisahkan dengan spasi.Misal a[type~=hijau] akan valid dengan value "rumput hijau" tapi invalid dengan "kehijauan"</p><br>
+                <h4>Attr[type|="value"]</h4>
+                    <p>Atribut akan mengikuti value yang dihubungkan dengan tanda hypen atau minus.Misal a[type|=makan] akan valid dengan "ayo-makan" tapi invalid dengan "ayomakan"</p><br>
+                <h4>Attr[type*="value"]</h4>
+                    <p>Akan mencari value yang sesuai tidak peduli dipisahkan dengan spasi ataupun hypen.Misal a[type*=au] akan valid dengan "danau","memukausekali",dsb</p><br>
+                <h4>Contoh penerapan</h4>
+                    <ul>
+                        <li><a href="https://google.com">https://google.com</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a></li>
+                        <li><a href="pageA.html">pageA.html</a></li>
+                    </ul>
+        </article>
+        <article id="art3">
+            <h2>Image Sprite Test</h2>
+            <img src="img/img sprites.png" alt="">
+            <i class="sprite sprite-download"></i>
+            <i class="sprite sprite-download"></i>
+            <i class="sprite sprite-download-_1_"></i>
+        </article>
+    </main>
+</body>
+</html>
